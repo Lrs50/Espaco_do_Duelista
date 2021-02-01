@@ -1,4 +1,4 @@
-# Espaco_do_Duelista
+# Mercado das Cartas
 
 > Projeto de GDI 2020.1 
 
