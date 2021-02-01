@@ -5,7 +5,7 @@
 # Membros:
 
 > * Lucas dos Reis Silva                (_lrs5_)  <br>
-> * Marcelo Vitor Batista da Silva      (_mvbs3_) <br>
+> * Marcelo Victor Batista da Silva      (_mvbs3_) <br>
 > * Gabriel Ferreira Rocha              (_gfr_)   <br>
 > * José Lucas da Costa Silva           (_jlcs3_) <br>
 
