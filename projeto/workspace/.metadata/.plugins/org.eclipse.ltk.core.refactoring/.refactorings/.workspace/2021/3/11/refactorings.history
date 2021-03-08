@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;diagrama/diagrama-08.02.2021-05.06.07.sql&apos;" deleteContents="false" description="Delete resource &apos;diagrama/diagrama-08.02.2021-05.06.07.sql&apos;" element1="/diagrama/diagrama-08.02.2021-05.06.07.sql" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1615235221806"/>
+</session>
