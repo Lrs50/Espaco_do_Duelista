@@ -1,5 +1,5 @@
-#Mon Mar 08 17:32:58 BRT 2021
-viewport.x=334
+#Tue Mar 16 20:33:08 BRT 2021
+viewport.x=0
 zoom=1.0
 print.margin.right=0.5
 rulergrid.rulerunit=0
@@ -8,9 +8,9 @@ print.page.size=Letter
 print.margin.left=0.5
 print.page.width=8.5
 print.useInches=true
-pagebreak.y=0
+pagebreak.y=-347
 rulergrid.gridspacing=0.125
-pagebreak.x=0
+pagebreak.x=-105
 print.page.height=11.0
 rulergrid.gridlinecolor=12632256
 print.margin.bottom=0.5
@@ -18,4 +18,4 @@ rulergrid.gridlinestyle=6
 rulergrid.gridlevel=true
 print.margin.top=0.5
 print.usePortrait=true
-viewport.y=-180
+viewport.y=-156

@@ -23,16 +23,15 @@
     <nodes xmi:type="eer:Entity" xmi:id="_D65eQGpHEeuzMLqoaqtGAg" name="Comprador" relationshipLink="_EQUKEIA_Eeu_Tdg_tNbJQA" inheritanceSL="_UGWZMGpHEeuzMLqoaqtGAg"/>
     <nodes xmi:type="eer:Entity" xmi:id="_NjvAwWpHEeuzMLqoaqtGAg" name="Vendedor" AttributeLinkSource="_csPQ8GpHEeuzMLqoaqtGAg" inheritanceSL="_UzWpIGpHEeuzMLqoaqtGAg"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_X1fkcGpHEeuzMLqoaqtGAg" name="Nº Vendas" type="DERIVED" AttributeLinkTarget="_csPQ8GpHEeuzMLqoaqtGAg"/>
-    <nodes xmi:type="eer:Attribute" xmi:id="_xHDIQGpHEeuzMLqoaqtGAg" name="Valor Total" comment="" type="DERIVED" dataType="FLOAT" AttributeLinkTarget="__V8P4GpHEeuzMLqoaqtGAg"/>
-    <nodes xmi:type="eer:Attribute" xmi:id="_0qzi4GpHEeuzMLqoaqtGAg" name="Data" AttributeLinkTarget="__x7oUGpHEeuzMLqoaqtGAg"/>
+    <nodes xmi:type="eer:Attribute" xmi:id="_xHDIQGpHEeuzMLqoaqtGAg" name="Quantidade" comment="" dataType="FLOAT" AttributeLinkTarget="__V8P4GpHEeuzMLqoaqtGAg"/>
+    <nodes xmi:type="eer:Attribute" xmi:id="_0qzi4GpHEeuzMLqoaqtGAg" name="Data" type="DISCRIMINATOR" AttributeLinkTarget="__x7oUGpHEeuzMLqoaqtGAg"/>
     <nodes xmi:type="eer:Entity" xmi:id="_e971gIA6Eeu_Tdg_tNbJQA" name="Promoção" AttributeLinkSource="_R3OogIA7Eeu_Tdg_tNbJQA _kj8J0IA8Eeu_Tdg_tNbJQA" relationshipLink="_Ja14wIBAEeus3a_vUI3FyA"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_ND4OQIA7Eeu_Tdg_tNbJQA" name="Código" type="IDENTIFIER" AttributeLinkTarget="_R3OogIA7Eeu_Tdg_tNbJQA"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_Ql9_gIA8Eeu_Tdg_tNbJQA" name="Descrição" AttributeLinkTarget="_kj8J0IA8Eeu_Tdg_tNbJQA"/>
     <nodes xmi:type="eer:AssociativeEntity" xmi:id="_EYpxQIBAEeus3a_vUI3FyA" name="Transação" relationshipLink="_KIheIIBAEeus3a_vUI3FyA">
-      <contains xmi:type="eer:Relationship" xmi:id="_gboT0GpHEeuzMLqoaqtGAg" name="Transação" AttributeLinkSource="__V8P4GpHEeuzMLqoaqtGAg __x7oUGpHEeuzMLqoaqtGAg _Ejg5QIBHEeuAfrsRSBC8aQ" relationshipLink="_oDonAGpHEeuzMLqoaqtGAg _EQUKEIA_Eeu_Tdg_tNbJQA"/>
+      <contains xmi:type="eer:Relationship" xmi:id="_gboT0GpHEeuzMLqoaqtGAg" name="Transação" AttributeLinkSource="__V8P4GpHEeuzMLqoaqtGAg __x7oUGpHEeuzMLqoaqtGAg" relationshipLink="_oDonAGpHEeuzMLqoaqtGAg _EQUKEIA_Eeu_Tdg_tNbJQA"/>
     </nodes>
     <nodes xmi:type="eer:Relationship" xmi:id="_HnnAkIBAEeus3a_vUI3FyA" name="Participa" relationshipLink="_Ja14wIBAEeus3a_vUI3FyA _KIheIIBAEeus3a_vUI3FyA"/>
-    <nodes xmi:type="eer:Attribute" xmi:id="_8pwuwIBGEeuAfrsRSBC8aQ" name="ID" type="DISCRIMINATOR" AttributeLinkTarget="_Ejg5QIBHEeuAfrsRSBC8aQ"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_O7LmwGpFEeuzMLqoaqtGAg" source="_0x1UwGpDEeuzMLqoaqtGAg" target="_AtFwYGpFEeuzMLqoaqtGAg"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_P6l1UGpFEeuzMLqoaqtGAg" source="_0x1UwGpDEeuzMLqoaqtGAg" target="_A2Kz4GpFEeuzMLqoaqtGAg"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_QeqywGpFEeuzMLqoaqtGAg" source="_0x1UwGpDEeuzMLqoaqtGAg" target="_A9j1UGpFEeuzMLqoaqtGAg"/>
@@ -64,7 +63,6 @@
     <links xmi:type="eer:RelationshipLink" xmi:id="_EQUKEIA_Eeu_Tdg_tNbJQA" source="_D65eQGpHEeuzMLqoaqtGAg" target="_gboT0GpHEeuzMLqoaqtGAg" cardinality="MANY"/>
     <links xmi:type="eer:RelationshipLink" xmi:id="_Ja14wIBAEeus3a_vUI3FyA" source="_e971gIA6Eeu_Tdg_tNbJQA" target="_HnnAkIBAEeus3a_vUI3FyA"/>
     <links xmi:type="eer:RelationshipLink" xmi:id="_KIheIIBAEeus3a_vUI3FyA" source="_EYpxQIBAEeus3a_vUI3FyA" target="_HnnAkIBAEeus3a_vUI3FyA" cardinality="MANY"/>
-    <links xmi:type="eer:AttributeLink" xmi:id="_Ejg5QIBHEeuAfrsRSBC8aQ" source="_gboT0GpHEeuzMLqoaqtGAg" target="_8pwuwIBGEeuAfrsRSBC8aQ"/>
   </eer:Schema>
   <notation:Diagram xmi:id="_cAVKAGpDEeuzMLqoaqtGAg" type="Eer" element="_b_byIGpDEeuzMLqoaqtGAg" name="diagrama.eer" measurementUnit="Pixel">
     <children xmi:type="notation:Node" xmi:id="_yCDUwGpDEeuzMLqoaqtGAg" type="2001" element="_yB3HgGpDEeuzMLqoaqtGAg">
@@ -79,7 +77,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_0x2i4WpDEeuzMLqoaqtGAg"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_0x2i4mpDEeuzMLqoaqtGAg" fontName="Segoe UI"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_0x2i42pDEeuzMLqoaqtGAg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0x2i5GpDEeuzMLqoaqtGAg" x="432" y="396"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0x2i5GpDEeuzMLqoaqtGAg" x="444" y="396"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_3vQIIGpDEeuzMLqoaqtGAg" type="2004" element="_3vO6AGpDEeuzMLqoaqtGAg">
       <children xmi:type="notation:DecorationNode" xmi:id="_3vQvMGpDEeuzMLqoaqtGAg" type="5005"/>
@@ -226,14 +224,14 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_xHDvUWpHEeuzMLqoaqtGAg"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_xHDvUmpHEeuzMLqoaqtGAg" fontName="Segoe UI"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_xHDvU2pHEeuzMLqoaqtGAg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xHDvVGpHEeuzMLqoaqtGAg" x="1152" y="12" width="85" height="37"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xHDvVGpHEeuzMLqoaqtGAg" x="1140" y="12" width="85" height="37"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_0q0J8GpHEeuzMLqoaqtGAg" type="2004" element="_0qzi4GpHEeuzMLqoaqtGAg">
       <children xmi:type="notation:DecorationNode" xmi:id="_0q0J9WpHEeuzMLqoaqtGAg" type="5005"/>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_0q0J8WpHEeuzMLqoaqtGAg"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_0q0J8mpHEeuzMLqoaqtGAg" fontName="Segoe UI"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_0q0J82pHEeuzMLqoaqtGAg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0q0J9GpHEeuzMLqoaqtGAg" x="1152" y="72" height="42"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0q0J9GpHEeuzMLqoaqtGAg" x="1140" y="84" height="42"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_e9_f4IA6Eeu_Tdg_tNbJQA" type="2001" element="_e971gIA6Eeu_Tdg_tNbJQA">
       <children xmi:type="notation:DecorationNode" xmi:id="_e-AG8IA6Eeu_Tdg_tNbJQA" type="5001"/>
@@ -271,7 +269,7 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_EYuCsoBAEeus3a_vUI3FyA" fontName="Segoe UI"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_EYuCs4BAEeus3a_vUI3FyA"/>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_EYuCtIBAEeus3a_vUI3FyA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EYuCtYBAEeus3a_vUI3FyA" x="960" y="12"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EYuCtYBAEeus3a_vUI3FyA" x="960"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_Hno1wIBAEeus3a_vUI3FyA" type="2003" element="_HnnAkIBAEeus3a_vUI3FyA">
       <children xmi:type="notation:DecorationNode" xmi:id="_Hnpc0IBAEeus3a_vUI3FyA" type="5004"/>
@@ -279,13 +277,6 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_Hno1woBAEeus3a_vUI3FyA" fontName="Segoe UI"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_Hno1w4BAEeus3a_vUI3FyA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hno1xIBAEeus3a_vUI3FyA" x="984" y="-96"/>
-    </children>
-    <children xmi:type="notation:Node" xmi:id="_8px84IBGEeuAfrsRSBC8aQ" type="2004" element="_8pwuwIBGEeuAfrsRSBC8aQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8px85YBGEeuAfrsRSBC8aQ" type="5005"/>
-      <styles xmi:type="notation:DescriptionStyle" xmi:id="_8px84YBGEeuAfrsRSBC8aQ"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_8px84oBGEeuAfrsRSBC8aQ" fontName="Segoe UI"/>
-      <styles xmi:type="notation:FillStyle" xmi:id="_8px844BGEeuAfrsRSBC8aQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8px85IBGEeuAfrsRSBC8aQ" x="1152" y="132"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_cAVxEGpDEeuzMLqoaqtGAg"/>
     <edges xmi:type="notation:Edge" xmi:id="_O7MN0GpFEeuzMLqoaqtGAg" type="4007" element="_O7LmwGpFEeuzMLqoaqtGAg" source="_0x2i4GpDEeuzMLqoaqtGAg" target="_AtGXcGpFEeuzMLqoaqtGAg">
